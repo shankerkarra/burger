@@ -6,3 +6,5 @@ class BurgersService {
     return fakeDb.burgers
   }
 }
+
+export const burgersService = new BurgersService()
