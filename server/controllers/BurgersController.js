@@ -16,4 +16,13 @@ export class BurgersController extends BaseController {
       next(error)
     }
   }
+
+  getbyID(req, res, next) {
+    try {
+      const burgers = burgersService.getById(req.params.id)
+      res.send(burgers)
+    } catch (error) {
+      next(error)
+    }
+  }
 }
