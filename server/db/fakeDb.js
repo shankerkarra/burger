@@ -1,5 +1,5 @@
 export const fakeDb = {
-  burger: [{
+  burgers: [{
     id: 1,
     name: 'Veg Sandwich',
     price: '5',
